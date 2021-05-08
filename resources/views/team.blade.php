@@ -63,7 +63,7 @@
                     </div>
                 </section>
                 <section class="text-gray-600 body-font">
-                    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center" id="mobile_reverse">>
+                    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center" id="mobile_reverse">
                         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                             <h1 class="text_bold title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Edouard
                                 <br ><span class="text_orange text-title text-gray-400">Responsable salle et gestion RH</span>
@@ -84,7 +84,7 @@
                         </div>
                         <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                             <h1 class="text_bold title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Camille
-                                <br ><span class="text_oranges text-title text-gray-400">Mixologue et responsable bar et stewarding</span>
+                                <br ><span class="text_orange text-title text-gray-400">Mixologue et responsable bar et stewarding</span>
                             </h1>
                             <p class="text mb-8 leading-relaxed">Camille est notre chimiste, notre savant fou, notre mixologue ! Elle saura vous transporter grâce à des cocktails explosifs. Au travers de ses différentes expériences derrière le bar en France à l’hôtel de Sers ou à Amsterdam au Toren Hotel, Camille a agrandi son éventail de connaissances sur les cocktails, les softs et les vins. Débordante d’énergie et pleine de bonne humeur, elle est un véritable moteur pour l’équipe. Toujours remplies d’idées déconcertantes pour ses cocktails, elle nous pousse toujours à nous dépasser.
                                 <br />Néanmoins, ne vous laissez pas avoir par sa petite taille, c’est une véritable pile électrique, pire, une bombe à retardement qui devient incontrôlable une fois son shaker dans les mains !
