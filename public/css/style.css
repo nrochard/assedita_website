@@ -1,0 +1,201 @@
+@font-face {
+    font-family: Chronos;
+    src: url("/fonts/ChronosSerif-Filled.otf");
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url("/fonts/HelveticaNeueLTStd-ThCn.otf");
+}
+
+@font-face {
+    font-family: HelveticaBold;
+    src: url("/fonts/HelveticaNeueLTStd-MdCn.otf");
+}
+
+
+
+.navbar{
+    font-family: HelveticaBold;
+    color: black;
+}
+
+.navlink{
+    color: black;
+    font-size: 20px;
+}
+
+.text_intro{
+    font-family: Helvetica;
+    font-size: 25px;
+}
+
+.navlink:hover{
+    color: #132c1a;
+}
+.btn_green{
+    background-color: #132c1a;
+    font-family: HelveticaBold;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.btn_green:hover{
+    background-color: #296139;
+}
+
+.btn_white{
+    background-color: white;
+    font-family: HelveticaBold;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.btn_white:hover{
+    background-color: rgb(235, 235, 235);
+}
+.text_white{
+    color: white;
+}
+
+
+.btn_black{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    font-family: HelveticaBold;
+    letter-spacing: 1px;
+}
+
+.btn_black:hover{
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+.text-title{
+    font-family: Chronos;
+}
+
+.text{
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+.text_bold{
+    font-family: HelveticaBold;
+}
+
+.line{
+    background-color: #132c1a;
+}
+
+.picto_bg{
+    background-color: white;
+}
+
+.text_brown{
+    color: #391111;
+}
+
+.text_orange{
+    color: #954017;
+}
+
+.color_green{
+    color: #132c1a;
+}
+
+footer{
+    background-color: rgb(17, 17, 17);
+}
+
+.color_white{
+    color: white;
+}
+
+.navbar{
+    background-color: #132c1a !important;
+    padding: 20px 50px !important;
+}
+
+.navbar .menu{
+    color: white !important;
+    letter-spacing: 1px;
+    font-family: HelveticaBold;
+    font-size: 17px;
+}
+
+
+
+.name_welcome{
+    font-family: Chronos;
+    font-size: 50px;
+}
+
+.block_welcome{
+    padding-top: 6rem;
+
+}
+
+.container{
+    max-width: 1400px !important;
+}
+@media (max-width: 767px) {
+    .navicon {
+      width: 1.125em;
+      height: .125em;
+    }
+  
+    .navicon::before,
+    .navicon::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transition: all .2s ease-out;
+      content: '';
+      background: #3D4852;
+    }
+  
+    .navicon::before {
+      top: 5px;
+    }
+  
+    .navicon::after {
+      top: -5px;
+    }
+  
+    .menu-btn:not(:checked) ~ .menu {
+      display: none;
+    }
+  
+    .menu-btn:checked ~ .menu {
+      display: block;
+    }
+  
+    .menu-btn:checked ~ .menu-icon .navicon {
+      background: transparent;
+    }
+  
+    .menu-btn:checked ~ .menu-icon .navicon::before {
+      transform: rotate(-45deg);
+    }
+  
+    .menu-btn:checked ~ .menu-icon .navicon::after {
+      transform: rotate(45deg);
+    }
+  
+    .menu-btn:checked ~ .menu-icon .navicon::before,
+    .menu-btn:checked ~ .menu-icon .navicon::after {
+      top: 0;
+    }
+  }
+  
+
+  .bg-welcome_block{
+      background-color: rgb(17, 17, 17);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    border-radius: 0;
+  }

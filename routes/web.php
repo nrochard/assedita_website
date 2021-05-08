@@ -21,19 +21,21 @@ Route::get('/restaurant', function () {
     return view('restaurant');
 });
 
-Route::get('/card', function () {
-    return view('restaurant');
-});
-
-
-
-Route::get('/team', function () {
-    return view('restaurant');
-});
-
-
 Route::get('/contact', function () {
-    return view('restaurant');
+    return view('contact');
+});
+
+Route::get('/carte', function () {
+    return view('card');
+});
+
+Route::get('/equipe', function () {
+    return view('team');
+});
+
+
+Route::get('/reservation', function () {
+    return view('booking');
 });
 
 
