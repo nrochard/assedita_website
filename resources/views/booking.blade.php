@@ -4,7 +4,7 @@
 
 @include('partials.navbar')
 <div class="relative bg-white overflow-hidden">
-    <div class="max-w-7xl mx-auto pt-12">
+    <div class="max-w-7xl mx-auto pt-12 padding-mobile">
 
 
         <div class="mt-10 sm:mt-0">

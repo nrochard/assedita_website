@@ -230,10 +230,7 @@ footer {
     .text_intro{
         line-height: 30px;
     }
-    .py-24{
-        padding-top: 0rem;
-    }
-    .pt-12{
-        padding-top: 0rem;
-    }
+.padding-mobile{
+    padding-top: 0;
+}
 }

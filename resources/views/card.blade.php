@@ -4,7 +4,7 @@
 
 @include('partials.navbar')
 <div class="relative bg-white overflow-hidden">
-  <div class="max-w-7xl mx-auto pt-12">
+  <div class="max-w-7xl mx-auto pt-12 padding-mobile">
     <div class="mt-10 sm:mt-0">
       <div class="flex flex-col text-center w-full mb-20">
         <!-- <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2> -->
