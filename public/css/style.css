@@ -199,3 +199,14 @@ footer{
       justify-content: center;
     border-radius: 0;
   }
+
+
+#menu_tabs{
+    width: 80%;
+}
+
+@media (max-width:768px) {
+    #menu_tabs{
+        width: 100%;
+    }
+}
