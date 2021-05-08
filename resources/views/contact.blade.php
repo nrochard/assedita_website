@@ -5,7 +5,7 @@
 @include('partials.navbar')
 
 
-<img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="../../img/groupe.jpg" style="width: 100%;" \>
+<img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="../../img/team.jpg" style="width: 100%;" \>
 
 <section class="text-gray-600 body-font">
   <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
