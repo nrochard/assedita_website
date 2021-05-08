@@ -47,7 +47,7 @@
                 <img alt="content" class="object-cover object-center h-full w-full" src="../../img/midi.JPG">
             </div>
             <div class="p-4 lg:w-1/2">
-                <div class="h-full bg-welcome_block px-8 pt-16 pb-16 rounded-lg overflow-hidden text-center relative">
+                <div id="bg-welcome_block1"  class="h-full bg-welcome_block px-8 pt-16 pb-16 rounded-lg overflow-hidden text-center relative">
                     <h2 class="text_white text-title title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Le midi</h2>
                     <p style="height:230px" class="text text_white leading-relaxed text-base">Le midi nous vous proposons une carte constituée de trois entrées, trois plats et trois desserts : une sélection courte, composée de produits frais, sourcés en circuit court et changeant régulièrement. Pour accompagner votre repas il vous sera proposé différents vins natures et bières artisanales provenant de vignerons et brasseurs soucieux d’offrir un produit naturel, reflet d’une tradition d’artisanat. </p>
                 </div>
@@ -57,9 +57,9 @@
 </section>
 <section class="text-gray-600 body-font">
     <div class="container px-5 py-2 pb-24 mx-auto">
-        <div class="flex flex-wrap -m-4">
+        <div class="flex flex-wrap -m-4" id="mobile_reverse">
             <div class="p-4 lg:w-1/2">
-                <div class="h-full bg-welcome_block px-8 pt-16 pb-16 rounded-lg overflow-hidden text-center relative">
+                <div id="bg-welcome_block2" class="h-full bg-welcome_block px-8 pt-16 pb-16 rounded-lg overflow-hidden text-center relative">
                     <h2 class="text_white  text-title   title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Le soir</h2>
                     <p class="text_white text black leading-relaxed text-base" style="height:230px">Le soir, on abandonne le traditionnel entrée-plat-dessert pour faire place à un concept bien plus convivial et chaleureux. Venez entre amis vous asseoir autour d’une de nos tables et profiter de nos « Assedita », de délicats mets à partager, tant originaux que réconfortants. Plus de dilemme entre tel ou tel plat, commandez plusieurs assiettes à partager et laissez-vous entraîner dans un moment de découverte ! Votre soirée sera également rythmée par les accords mets-cocktails surprenants de notre mixologue Camille : des mini-cocktails détonants reprenant un élément du plat en question. </p>
                 </div>
@@ -94,7 +94,7 @@
 
 <section class="text-gray-600 body-font">
     <div class=" mx-auto flex px-5 py-24 md:flex-row flex-col items-center" style="background-color: #132c1a;">
-    <div class="container mx-auto flex ">
+    <div class="container container_pequenos mx-auto flex ">
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img class="object-cover object-center rounded" alt="hero" src="./../img/pequenos.jpg">
         </div>
