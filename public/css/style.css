@@ -237,3 +237,7 @@ footer {
     padding-top: 0;
 }
 }
+
+.text_justify{
+    text-align: justify;
+}

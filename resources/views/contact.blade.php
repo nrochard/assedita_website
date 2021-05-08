@@ -14,7 +14,7 @@
       <h1 class="text-title name_welcome title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Contact & Accès</h1>
       <div class="line h-1 w-20 bg-indigo-500 rounded" style="margin: 10px auto;"></div>
       <p class="text mt-8 mb-8 leading-relaxed">Restaurant Assedita</p>
-      <p class="text mb-8 leading-relaxed">9 Boulevard de Clichy 75009 PARIS</p>
+      <p class="text mb-8 leading-relaxed">49 Boulevard de Clichy 75009 PARIS</p>
       <p class="text mb-8 leading-relaxed">06 72 74 51 03</p>
       <p class="text mb-8 leading-relaxed">contact@assedita.com</p>
       <p class="text mb-8 leading-relaxed"><svg style="display:inline" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">

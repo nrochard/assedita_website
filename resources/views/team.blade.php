@@ -23,7 +23,7 @@
                             <h1 class="text_bold title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Louis
                                 <br><span class="text_orange text-title text-gray-400">Chef et Gérant</span>
                             </h1>
-                            <p class="text mb-8 leading-relaxed">Louis, originaire de la ville d’Angers, a cuisiné dans de nombreux types de cuisines. En travaillant six mois au Mermoz avec la cheffe Manon Fleury, il a pu développer une grande créativité qu’il retranscrit bien dans nos assiettes. Chez Christopher Coutanceau (***) il s’est armé de précision et de minutie dans ses tâches, de la sélection de ses produits au dressage. Enfin la pratique du Kickboxing au niveau national lui a conféré une véritable âme de compétiteur, une confiance en lui et un sérieux faisant de lui un leader source de motivation.
+                            <p class="text mb-8 leading-relaxed text_justify">Louis, originaire de la ville d’Angers, a cuisiné dans de nombreux types de cuisines. En travaillant six mois au Mermoz avec la cheffe Manon Fleury, il a pu développer une grande créativité qu’il retranscrit bien dans nos assiettes. Chez Christopher Coutanceau (***) il s’est armé de précision et de minutie dans ses tâches, de la sélection de ses produits au dressage. Enfin la pratique du Kickboxing au niveau national lui a conféré une véritable âme de compétiteur, une confiance en lui et un sérieux faisant de lui un leader source de motivation.
                                 <br />Ah et en cas de baisse de moral de l’équipe, pas de problème, il est très doué dès qu’il s’agit d’envoyer ses meilleurs pas de danse en cuisine.
                             </p>
 
@@ -36,7 +36,7 @@
                             <h1 class="text_bold title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Grégoire
                                 <br ><span class="text_orange text-title text-gray-400">Second et Responsable hygiène</span>
                             </h1>
-                            <p class="text mb-8 leading-relaxed">Né à Bormes-les-Mimosas dans le Var, Grégoire est un pur produit du sud de la France ! Energique et des plus réactifs, il brille également par sa capacité d’adaptation héritée de ses expériences passées. En effet, ayant travaillé à des postes à responsabilités dans plusieurs cuisines à effectifs réduits, comme par exemple la Maison Hache, il a souvent été confronté à l’imprévu et y réagit toujours avec maîtrise. Son attrait pour la cuisine méditerranéenne offre à nos assiettes un joli rayon de soleil.
+                            <p class="text mb-8 leading-relaxed text_justify">Né à Bormes-les-Mimosas dans le Var, Grégoire est un pur produit du sud de la France ! Energique et des plus réactifs, il brille également par sa capacité d’adaptation héritée de ses expériences passées. En effet, ayant travaillé à des postes à responsabilités dans plusieurs cuisines à effectifs réduits, comme par exemple la Maison Hache, il a souvent été confronté à l’imprévu et y réagit toujours avec maîtrise. Son attrait pour la cuisine méditerranéenne offre à nos assiettes un joli rayon de soleil.
                                 <br />Si vous n’êtes pas encore convaincus, son humour sans limite quasi-maladif animera services en cuisine, mariages et Bar-mitsvah à merveille !
                             </p>
                         </div>
@@ -55,8 +55,8 @@
                             <h1 class="text_bold title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Pablo
                                 <br ><span class="text_orange text-title text-gray-400">Second et Responsable communication</span>
                             </h1>
-                            <p class="text mb-8 leading-relaxed">Louis, originaire de la ville d’Angers, a cuisiné dans de nombreux types de cuisines. En travaillant six mois au Mermoz avec la cheffe Manon Fleury, il a pu développer une grande créativité qu’il retranscrit bien dans nos assiettes. Chez Christopher Coutanceau (***) il s’est armé de précision et de minutie dans ses tâches, de la sélection de ses produits au dressage. Enfin la pratique du Kickboxing au niveau national lui a conféré une véritable âme de compétiteur, une confiance en lui et un sérieux faisant de lui un leader source de motivation.
-                                <br />Ah et en cas de baisse de moral de l’équipe, pas de problème, il est très doué dès qu’il s’agit d’envoyer ses meilleurs pas de danse en cuisine.
+                            <p class="text mb-8 leading-relaxed text_justify">Formé dans de célèbres cuisines, notamment la Monnaie de Paris de Guy Savoy, Pablo y a appris la rigueur et la concentration. C’est un cuisinier appliqué et très organisé, redoutable dès qu’il s’agit d’accélérer le rythme. Ayant eu l’opportunité de partir apprendre auprès du chef Nick Curtin à Copenhague, il dispose dans son arsenal d’un florilège d’idées originales et novatrices. Enfin, grâce à son organisation militaire, il est un élément essentiel quand il s’agit de travailler en équipe. 
+                                Par ailleurs, de militaire, il n’a pas que cela, vous observerez souvent avec un dégradé tracé à l’équerre et un rasage des plus…impeccables.
                             </p>
 
                         </div>
@@ -68,7 +68,7 @@
                             <h1 class="text_bold title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Edouard
                                 <br ><span class="text_orange text-title text-gray-400">Responsable salle et gestion RH</span>
                             </h1>
-                            <p class="text mb-8 leading-relaxed">Edouard sera responsable du bon déroulé de votre repas. Et pour cela, il n’y a pas de crainte à avoir ! En effet, formé au service haut de gamme dans des établissements cinq étoiles de renom tels que l’Hôtel Bank ou The Landmark London. Son dernier stage en tant qu’assistant de direction du groupe Barrière à Deauville lui a inculqué des notions capitales en pilotage d’entreprise. Habitué à avoir du personnel sous ses ordres, il saura former nos futurs apprentis avec pédagogie. Enfin, grâce à ses connaissances en bières, il a su nous constituer une carte de bières artisanales des plus originales.
+                            <p class="text_justify text mb-8 leading-relaxed">Edouard sera responsable du bon déroulé de votre repas. Et pour cela, il n’y a pas de crainte à avoir ! En effet, formé au service haut de gamme dans des établissements cinq étoiles de renom tels que l’Hôtel Bank ou The Landmark London. Son dernier stage en tant qu’assistant de direction du groupe Barrière à Deauville lui a inculqué des notions capitales en pilotage d’entreprise. Habitué à avoir du personnel sous ses ordres, il saura former nos futurs apprentis avec pédagogie. Enfin, grâce à ses connaissances en bières, il a su nous constituer une carte de bières artisanales des plus originales.
                                 <br />Si vous n’arrivez plus à entendre votre voisin c’est probablement car Edouard PARLE EXCESSIVEMENT FORT… Un conseil, tendez-lui une bière fraîche, ça marche à tous les coups !
                             </p>
                         </div>
@@ -86,7 +86,7 @@
                             <h1 class="text_bold title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Camille
                                 <br ><span class="text_orange text-title text-gray-400">Mixologue et responsable bar et stewarding</span>
                             </h1>
-                            <p class="text mb-8 leading-relaxed">Camille est notre chimiste, notre savant fou, notre mixologue ! Elle saura vous transporter grâce à des cocktails explosifs. Au travers de ses différentes expériences derrière le bar en France à l’hôtel de Sers ou à Amsterdam au Toren Hotel, Camille a agrandi son éventail de connaissances sur les cocktails, les softs et les vins. Débordante d’énergie et pleine de bonne humeur, elle est un véritable moteur pour l’équipe. Toujours remplies d’idées déconcertantes pour ses cocktails, elle nous pousse toujours à nous dépasser.
+                            <p class="text mb-8 leading-relaxed text_justify">Camille est notre chimiste, notre savant fou, notre mixologue ! Elle saura vous transporter grâce à des cocktails explosifs. Au travers de ses différentes expériences derrière le bar en France à l’hôtel de Sers ou à Amsterdam au Toren Hotel, Camille a agrandi son éventail de connaissances sur les cocktails, les softs et les vins. Débordante d’énergie et pleine de bonne humeur, elle est un véritable moteur pour l’équipe. Toujours remplies d’idées déconcertantes pour ses cocktails, elle nous pousse toujours à nous dépasser.
                                 <br />Néanmoins, ne vous laissez pas avoir par sa petite taille, c’est une véritable pile électrique, pire, une bombe à retardement qui devient incontrôlable une fois son shaker dans les mains !
 
                             </p>

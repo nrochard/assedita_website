@@ -13,7 +13,7 @@
                         <h1 class="text-title  name_welcome sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Le Restaurant</h1>
                         <div class="line h-1 w-20 bg-indigo-500 rounded"></div>
                     </div>
-                    <p class="text lg:w-1/2 w-full leading-relaxed text-gray-500">Nous sommes un restaurant bistronomique situé en plein cœur du 9e arrondissement. Nous vous accueillons dans un cadre naturel et convivial afin de vous faire découvrir une cuisine inspirée et créative, reflet du travail de nos producteurs et artisans !</p>
+                    <p class="text lg:w-1/2 w-full leading-relaxed text-gray-500">Nous sommes un restaurant bistronomique situé en plein cœur du 9e arrondissement de Paris. Nous vous accueillons dans un cadre naturel et convivial afin de vous faire découvrir une cuisine inspirée et créative, reflet du travail de nos producteurs et artisans !</p>
                 </div>
                 <div class="flex flex-wrap md:-m-2 -m-1">
                     <div class="flex flex-wrap w-1/2">

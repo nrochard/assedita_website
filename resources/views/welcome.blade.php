@@ -16,16 +16,16 @@
                 <div class="sm:text-center lg:text-left">
                     <p class="name_welcome">ASSEDITA</p>
                     <p class="text_intro mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                        Nous sommes un restaurant bistronomique situé en plein cœur du 9e arrondissement. Nous vous accueillons dans un cadre naturel et convivial afin de vous faire découvrir une cuisine inspirée et créative, reflet du travail de nos producteurs et artisans !
+                        Nous sommes un restaurant bistronomique situé en plein cœur du 9e arrondissement de Paris. Nous vous accueillons dans un cadre naturel et convivial afin de vous faire découvrir une cuisine inspirée et créative, reflet du travail de nos producteurs et artisans !
                     </p>
                     <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                         <div class="mt-3 sm:mt-0 sm:ml-3">
-                            <a href="#" class="btn_green w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
+                            <a href="/carte" class="btn_green w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
                                 Voir la carte
                             </a>
                         </div>
                         <div class="mt-3 sm:mt-0 sm:ml-3">
-                            <a href="#" class="btn_black w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
+                            <a href="/reservation" class="btn_black w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
                                 Réserver
                             </a>
                         </div>

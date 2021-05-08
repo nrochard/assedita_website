@@ -54,12 +54,14 @@
                                         <option>12h30</option>
                                         <option>13h</option>
                                         <option>13h30</option>
+                                        <option>14h</option>
                                         <option>19h00</option>
                                         <option>19h30</option>
                                         <option>20h</option>
                                         <option>20h30</option>
                                         <option>21h</option>
                                         <option>21h30</option>
+                                        <option>22h</option>
                                     </select>
                                 </div>
 
