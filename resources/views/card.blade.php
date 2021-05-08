@@ -20,9 +20,9 @@
   <!-- Tabs -->
   <ul id="tabs" class="inline-flex pt-2 px-1 w-full border-b" style="    display: flex;
     justify-content: center;">
-    <li class="text bg-white px-4 text-gray-800 font-semibold py-2 rounded-t border-t border-r border-l -mb-px"><a id="default-tab" href="#first">Carte du Midi</a></li>
-    <li class="text px-4 text-gray-800 font-semibold py-2 rounded-t"><a href="#second">Carte du Soir</a></li>
-    <li class="text px-4 text-gray-800 font-semibold py-2 rounded-t"><a href="#third">Boissons</a></li>
+    <li class="text bg-white px-4 text-gray-800 font-semibold py-2 rounded-t border-t border-r border-l -mb-px"><a id="default-tab" href="#first" style="font-family: 'Helvetica';">Carte du Midi</a></li>
+    <li class="text px-4 text-gray-800 font-semibold py-2 rounded-t"><a href="#second" style="font-family: 'Helvetica';" >Carte du Soir</a></li>
+    <li class="text px-4 text-gray-800 font-semibold py-2 rounded-t"><a href="#third" style="font-family: 'Helvetica';">Boissons</a></li>
     <!-- <li class="text px-4 text-gray-800 font-semibold py-2 rounded-t"><a href="#fourth">Accords Mets & Vins</a></li> -->
   </ul>
 

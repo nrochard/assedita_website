@@ -227,6 +227,9 @@ footer {
     #mobile_reverse{
         flex-direction: column-reverse;
     }
+    #mobile_reverse_team{
+        padding-bottom: 40px;
+    }
     .text_intro{
         line-height: 30px;
     }
