@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: HelveticaBold;
-    src: url("/fonts/HelveticaNeueLTStd-MdCn.otf");
+    src: url("/fonts/Mulish-VariableFont_wght.ttf");
 }
 
 .navbar {
@@ -34,13 +34,36 @@
 .btn_green {
     background-color: #132c1a;
     font-family: HelveticaBold;
-    letter-spacing: 1px;
     color: white;
+    transition: background-color .2s ease-out;
+    border: 1px solid #132c1a;
 }
 
 .btn_green:hover {
-    background-color: #296139;
+    background-color: transparent;
+    color: #132c1a;
+    border: 1px solid #132c1a;
 }
+
+.btn_green_fill{
+    background-color: transparent;
+    font-family: HelveticaBold;
+    letter-spacing: 1px;
+    color: #132c1a;
+    border: 1px solid #132c1a;
+    transition: background-color .2s ease-out;
+}
+
+.btn_green_fill:hover{
+    background-color: #132c1a;
+    font-family: HelveticaBold;
+    letter-spacing: 1px;
+    color: white;
+    border: 1px solid #132c1a;
+    
+}
+
+
 
 .btn_white {
     background-color: white;
@@ -72,6 +95,11 @@
     font-family: Chronos;
 }
 
+.text-link{
+    font-family: HelveticaBold !important;
+    color: #296139 !important;
+} 
+
 .text {
     font-family: Helvetica;
     font-size: 20px;
@@ -99,6 +127,22 @@
 
 .color_green {
     color: #132c1a;
+}
+
+#plan1 {
+    background-color: #391111;
+}
+
+#plan2 {
+    background-color: #954017;
+}
+
+#plan3 {
+    background-color: #132c1a;
+}
+
+#plan1 p, #plan2 p,#plan3 p, #plan1 h2, #plan2 h2,#plan3 h2, #plan1 h1, #plan2 h1,#plan3 h1{
+color: white;
 }
 
 footer {
@@ -240,4 +284,8 @@ footer {
 
 .text_justify{
     text-align: justify;
+}
+
+.nav li{
+    font-size:15px
 }

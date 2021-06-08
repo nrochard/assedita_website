@@ -71,7 +71,7 @@
                             </div>
                             <div class="flex-grow">
                                 <h2 class="text-title text-gray-900 text-lg title-font font-medium mb-3">Artisanat</h2>
-                                <p class="leading-relaxed text-base">Nous prenons soin de travailler avec des artisans partageant notre passion. Comme en cuisine, la qualité de leurs créations provient en partie de leur amour pour leur métier.</p>
+                                <p class="text leading-relaxed text-base">Nous prenons soin de travailler avec des artisans partageant notre passion. Comme en cuisine, la qualité de leurs créations provient en partie de leur amour pour leur métier.</p>
                                 <!-- <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                         <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -85,7 +85,7 @@
                             </div>
                             <div class="flex-grow">
                                 <h2 class="text-title text-gray-900 text-lg title-font font-medium mb-3">Convivialité </h2>
-                                <p class="leading-relaxed text-base">Lorsque l’on va au restaurant, on y vient pour un moment de détente et d’émerveillement, pas pour être accueilli froidement comme à l’entrée d’une banque ! </p>
+                                <p class="text leading-relaxed text-base">Lorsque l’on va au restaurant, on y vient pour un moment de détente et d’émerveillement, pas pour être accueilli froidement comme à l’entrée d’une banque ! </p>
                                 <!-- <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                         <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -99,7 +99,7 @@
                             </div>
                             <div class="flex-grow">
                                 <h2 class="text-title text-gray-900 text-lg title-font font-medium mb-3">Découverte</h2>
-                                <p class="leading-relaxed text-base"> Qu’elle est belle cette sensation : goûter une saveur inconnue. Ce dont il s’agissait, on ne le sait pas encore… mais qu’est-ce que c’était bon !</p>
+                                <p class="text leading-relaxed text-base"> Qu’elle est belle cette sensation : goûter une saveur inconnue. Ce dont il s’agissait, on ne le sait pas encore… mais qu’est-ce que c’était bon !</p>
                                 <!-- <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                         <path d="M5 12h14M12 5l7 7-7 7"></path>

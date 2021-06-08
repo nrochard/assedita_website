@@ -15,7 +15,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+})->name("home");
+
+Route::get('/blog', function () {
+    return view('blog');
 });
+
+Route::get('/abonnement', function () {
+    return view('plan');
+});
+
 
 Route::get('/restaurant', function () {
     return view('restaurant');
@@ -37,9 +46,6 @@ Route::get('/equipe', function () {
 Route::get('/reservation', function () {
     return view('booking');
 });
-
-
-
 
 Route::get('/dashboard', function () {
     return view('dashboard');

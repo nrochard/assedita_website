@@ -3800,7 +3800,7 @@ module.exports = {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-__webpack_require__(/*! alpinejs */ "./node_modules/alpinejs/dist/alpine.js"); // require('tailwindjs')
+__webpack_require__(/*! alpinejs */ "./node_modules/alpinejs/dist/alpine.js");
 
 /***/ }),
 
