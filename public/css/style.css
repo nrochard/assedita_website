@@ -70,10 +70,14 @@
     font-family: HelveticaBold;
     letter-spacing: 1px;
     color: black;
+    border: 1px solid white;
+    
 }
 
 .btn_white:hover {
-    background-color: rgb(235, 235, 235);
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
 }
 .text_white {
     color: white;

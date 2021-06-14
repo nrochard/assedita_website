@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
-
+    <script src="https://js.stripe.com/v3/"></script>
     <title>Assedita</title>
 
 </head>

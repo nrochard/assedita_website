@@ -21,9 +21,14 @@ Route::get('/blog', function () {
     return view('blog');
 });
 
-Route::get('/abonnement', function () {
-    return view('plan');
-});
+
+Route::get('/abonnement', [\App\Http\Controllers\CheckoutController::class, 'index'])->name('checkout');
+
+Route::post('/abonnement', [\App\Http\Controllers\CheckoutController::class, 'store']);
+
+// Route::get('/abonnement', function () {
+//     return view('plan');
+// });
 
 
 Route::get('/restaurant', function () {
