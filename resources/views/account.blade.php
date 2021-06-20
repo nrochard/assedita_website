@@ -19,9 +19,7 @@
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/2">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <!-- <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog"> -->
           <div class="p-6">
-            <!-- <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2> -->
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Connexion</h1>
             <div class="relative mb-4">
               <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
@@ -35,7 +33,6 @@
               <a href="/admin" class="btn_green w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
                 Se connecter
               </a>
-
             </div>
           </div>
         </div>

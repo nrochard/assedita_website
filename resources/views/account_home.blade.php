@@ -39,7 +39,7 @@
                     <p class="leading-relaxed mb-6"><strong>Type d'abonnement :</strong> Le Gourmand</p>
                     <p class="leading-relaxed mb-6"><strong>Prix :</strong> : 20€ / mois</p>
                     <div class="flex">
-                        <button class="btn_green flex mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Modfier</button>
+                        <a href="{{ auth()->user()->billingPortalUrl(route('account')) }}" class="btn_green flex mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Modfier</a>
                         <button class="btn_green_fill flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Suspendre</button>
                     </div>
                 </div>

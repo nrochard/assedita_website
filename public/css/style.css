@@ -71,6 +71,7 @@
     letter-spacing: 1px;
     color: black;
     border: 1px solid white;
+    transition: background-color .2s ease-out;
     
 }
 
@@ -88,11 +89,14 @@
     color: white;
     font-family: HelveticaBold;
     letter-spacing: 1px;
+    border : 1px solid rgb(17, 17, 17);
+    transition: background-color .2s ease-out;
 }
 
 .btn_black:hover {
-    background-color: rgb(68, 68, 68);
-    color: white;
+    background-color: transparent;
+    color: rgb(17, 17, 17);
+    border : 1px solid rgb(17, 17, 17);
 }
 
 .text-title {
@@ -293,3 +297,8 @@ footer {
 .nav li{
     font-size:15px
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    z-index: 1000;
+  }

@@ -23,8 +23,7 @@ Route::get('/blog', function () {
 
 
 Route::get('/abonnement', [\App\Http\Controllers\CheckoutController::class, 'index'])->name('checkout');
-
-Route::post('/abonnement', [\App\Http\Controllers\CheckoutController::class, 'store']);
+Route::post('/abonnement', [App\Http\Controllers\CheckoutController::class, 'store']);
 
 // Route::get('/abonnement', function () {
 //     return view('plan');
@@ -47,10 +46,18 @@ Route::get('/equipe', function () {
     return view('team');
 });
 
-
 Route::get('/reservation', function () {
     return view('booking');
 });
+
+Route::get('/compte', function () {
+    return view('account');
+});
+
+
+
+Route::get('/compte-accueil', [App\Http\Controllers\AccountController::class, 'index'])->name('account');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

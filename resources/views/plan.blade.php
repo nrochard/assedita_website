@@ -10,6 +10,15 @@
 
     <div class="text-center lg:w-2/3 w-full">
       <h1 class="text-title name_welcome title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Nos abonnements</h1>
+      @if ($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+          @endif
       <div class="line h-1 w-20 bg-indigo-500 rounded" style="margin: 10px auto;"></div>
     </div>
 </section>
@@ -171,8 +180,8 @@
             <div class="mt-2">
               @foreach ($plans as $plan)
               <div>
-                <label class="inline-flex items-center">
-                  <input type="radio" class="form-radio" name="plan" id="card-holder-name plan{{ $plan->id }}" value="plan{{ $plan->id }}">
+                <label class="inline-flex items-center" for="{{ $plan->id }}">
+                  <input type="radio" class="form-radio" name="plan" id="card-holder-name {{ $plan->id }}" value="{{ $plan->id }}">
                   <span class=" text ml-2">Abonnement {{ $plan->name }} | ({{ number_format($plan->price / 1, 2, ',', ' ') }} €)</span>
                 </label>
               </div>
@@ -203,7 +212,7 @@
 <script>
 
   const stripe = Stripe('pk_test_51IzzUJCGb4feCcQRhKmiQaqDqvmYkQ8JqMkUQyZmvaxCA1gNBUt2iN2OLjvnJwx57NiWaYOlLZIRy6XjODErCFRQ00nbcj8dJn');
-    const elements = stripe.elements();
+  const elements = stripe.elements();
     const card = elements.create("card");
     card.mount("#card-element");
     const cardHolderName = document.getElementById('name');
@@ -233,19 +242,16 @@ form.addEventListener('submit', async (e) => {
         displayError.textContent = error.message;
     } else {
         displayError.textContent = '';
-        console.log(setupIntent);
-        let token = document.createElement('input');
-        token.setAttribute('type', 'hidden');
-        token.setAttribute('name', 'token');
-        token.value = setupIntent.payment_method;
-
-        form.appendChild(token);
+        //console.log(setupIntent);
+        
+        let paymentMethod = document.createElement('input');
+        paymentMethod.setAttribute('type', 'hidden');
+        paymentMethod.setAttribute('name', 'payment_method');
+        paymentMethod.value = setupIntent.payment_method;
+        form.appendChild(paymentMethod);
         form.submit();
     }
 });
-
-
-
 </script>
 @include('partials.footer')
 
