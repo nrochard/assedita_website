@@ -18,9 +18,46 @@ Route::get('/', function () {
     return view('welcome');
 })->name("home");
 
+// ADMIN DU SITE
+
 Route::get('/admin', function () {
     return view('admin/dashboard');
 })->name("admin");
+
+
+// -> Route pour gérer les utilisateurs du site 
+
+Route::get('/users', [\App\Http\Controllers\Admin\UserController::class, 'index'])->name('users');
+
+// Route::get('/users', function () {
+//     return view('admin/users');
+// })->name("users");
+
+Route::get('/posts', function () {
+    return view('admin/posts');
+})->name("posts");
+
+
+Route::get('/plans', function () {
+    return view('admin/plans');
+})->name("plans");
+
+
+Route::get('/support', function () {
+    return view('admin/support');
+})->name("support");
+
+
+Route::get('/admin-calendar', function () {
+    return view('admin/calendar');
+})->name("calendar");
+
+
+
+
+
+
+
 
 
 Route::get('/blog', function () {
