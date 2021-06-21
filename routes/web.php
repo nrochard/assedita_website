@@ -24,23 +24,25 @@ Route::get('/admin', function () {
     return view('admin/dashboard');
 })->name("admin");
 
-Route::get('/users', [\App\Http\Controllers\Admin\UserController::class, 'index'])->name('users');
+Route::get('/admin/users', [\App\Http\Controllers\Admin\UserController::class, 'index'])->name('users');
+
+Route::get('/admin/users/{id}', [\App\Http\Controllers\Admin\UserController::class, 'deleteUser'])->middleware('auth')->name("admin.users.delete");
 
 // Route::get('/users', function () {
 //     return view('admin/users');
 // })->name("users");
 
-Route::get('/posts', [\App\Http\Controllers\Admin\PostController::class, 'index'])->name('posts');
+Route::get('/admin/posts', [\App\Http\Controllers\Admin\PostController::class, 'index'])->name('posts');
 
-Route::get('/plans', function () {
+Route::get('/admin/plans', function () {
     return view('admin/plans');
 })->name("plans");
 
-Route::get('/support', function () {
+Route::get('/admin/support', function () {
     return view('admin/support');
 })->name("support");
 
-Route::get('/admin-calendar', function () {
+Route::get('/admin/calendar', function () {
     return view('admin/calendar');
 })->name("calendar");
 
