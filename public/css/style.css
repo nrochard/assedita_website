@@ -13,39 +13,40 @@
     src: url("/fonts/Mulish-VariableFont_wght.ttf");
 }
 
-.navbar {
+body .navbar {
     font-family: HelveticaBold;
     color: black;
 }
 
-.navlink {
+body .navlink {
     color: black;
     font-size: 20px;
 }
 
-.text_intro {
+body .text_intro {
     font-family: Helvetica;
     font-size: 25px;
 }
 
-.navlink:hover {
+body .navlink:hover {
     color: #132c1a;
 }
-.btn_green {
-    background-color: #132c1a;
+
+body .btn_green {
+    background-color: #132c1a ;
     font-family: HelveticaBold;
     color: white;
     transition: background-color .2s ease-out;
     border: 1px solid #132c1a;
 }
 
-.btn_green:hover {
+body .btn_green:hover {
     background-color: transparent;
     color: #132c1a;
     border: 1px solid #132c1a;
 }
 
-.btn_green_fill{
+body .btn_green_fill{
     background-color: transparent;
     font-family: HelveticaBold;
     letter-spacing: 1px;
@@ -54,7 +55,7 @@
     transition: background-color .2s ease-out;
 }
 
-.btn_green_fill:hover{
+body .btn_green_fill:hover{
     background-color: #132c1a;
     font-family: HelveticaBold;
     letter-spacing: 1px;
@@ -65,7 +66,7 @@
 
 
 
-.btn_white {
+body .btn_white {
     background-color: white;
     font-family: HelveticaBold;
     letter-spacing: 1px;
@@ -75,16 +76,16 @@
     
 }
 
-.btn_white:hover {
+body .btn_white:hover {
     background-color: transparent;
     border: 1px solid white;
     color: white;
 }
-.text_white {
+body .text_white {
     color: white;
 }
 
-.btn_black {
+body .btn_black {
     background-color: rgb(17, 17, 17);
     color: white;
     font-family: HelveticaBold;
@@ -93,59 +94,59 @@
     transition: background-color .2s ease-out;
 }
 
-.btn_black:hover {
+body .btn_black:hover {
     background-color: transparent;
     color: rgb(17, 17, 17);
     border : 1px solid rgb(17, 17, 17);
 }
 
-.text-title {
+body .text-title {
     font-family: Chronos;
 }
 
-.text-link{
+body .text-link{
     font-family: HelveticaBold !important;
     color: #296139 !important;
 } 
 
-.text {
+body .text {
     font-family: Helvetica;
     font-size: 20px;
 }
 
-.text_bold {
+body .text_bold {
     font-family: HelveticaBold;
 }
 
-.line {
+body  .line {
     background-color: #132c1a;
 }
 
-.picto_bg {
+body .picto_bg {
     background-color: white;
 }
 
-.text_brown {
+body .text_brown {
     color: #391111;
 }
 
-.text_orange {
+body .text_orange {
     color: #954017;
 }
 
-.color_green {
+body .color_green {
     color: #132c1a;
 }
 
-#plan1 {
+body #plan1 {
     background-color: #391111;
 }
 
-#plan2 {
+body #plan2 {
     background-color: #954017;
 }
 
-#plan3 {
+body #plan3 {
     background-color: #132c1a;
 }
 
@@ -153,53 +154,53 @@
 color: white;
 }
 
-footer {
+body footer {
     background-color: rgb(17, 17, 17);
 }
 
-.color_white {
+body .color_white {
     color: white;
 }
 
-.navbar {
+body .navbar {
     background-color: #132c1a !important;
     padding: 20px 50px !important;
 }
 
-.navbar .menu {
+body .navbar .menu {
     color: white !important;
     letter-spacing: 1px;
     font-family: HelveticaBold;
     font-size: 17px;
 }
 
-.name_welcome {
+body .name_welcome {
     font-family: Chronos;
     font-size: 50px;
     line-height: initial;
 }
 
-.block_welcome {
+body .block_welcome {
     padding-top: 6rem;
 }
 
 @media (max-width: 767px) {
-    .block_welcome {
+    body .block_welcome {
         padding-top: 0rem;
     }
 }
 
-.container {
+body .container {
     max-width: 1400px !important;
 }
 @media (max-width: 767px) {
-    .navicon {
+    body .navicon {
         width: 1.125em;
         height: 0.125em;
     }
 
-    .navicon::before,
-    .navicon::after {
+    body .navicon::before,
+    body .navicon::after {
         display: block;
         position: absolute;
         width: 100%;
@@ -209,15 +210,15 @@ footer {
         background: #3d4852;
     }
 
-    .navicon::before {
+    body .navicon::before {
         top: 5px;
     }
 
-    .navicon::after {
+    body .navicon::after {
         top: -5px;
     }
 
-    .menu-btn:not(:checked) ~ .menu {
+    body .menu-btn:not(:checked) ~ .menu {
         display: none;
     }
 
@@ -243,7 +244,7 @@ footer {
     }
 }
 
-.bg-welcome_block {
+body .bg-welcome_block {
     background-color: rgb(17, 17, 17);
     display: flex;
     flex-direction: column;
@@ -252,7 +253,7 @@ footer {
     border-radius: 0;
 }
 
-#menu_tabs {
+body #menu_tabs {
     width: 80%;
 }
 
@@ -260,37 +261,37 @@ footer {
     #menu_tabs {
         width: 100%;
     }
-    #bg-welcome_block1 {
+    body #bg-welcome_block1 {
         height: 450px;
         display: block;
         padding: 20px 20px;
     }
 
-    #bg-welcome_block2 {
+    body #bg-welcome_block2 {
         height: 600px;
         display: block;
         padding: 20px 20px;
     }
 
-    .container_pequenos {
+    body .container_pequenos {
         flex-direction: column;
         align-items: center;
     }
-    #mobile_reverse{
+    body #mobile_reverse{
         flex-direction: column-reverse;
     }
-    #mobile_reverse_team{
+    body #mobile_reverse_team{
         padding-bottom: 40px;
     }
-    .text_intro{
+    body .text_intro{
         line-height: 30px;
     }
-.padding-mobile{
+    body .padding-mobile{
     padding-top: 0;
 }
 }
 
-.text_justify{
+body .text_justify{
     text-align: justify;
 }
 
@@ -302,3 +303,12 @@ footer {
     display: block;
     z-index: 1000;
   }
+
+  button:focus, input:active, input:focus{
+        outline: 0 !important;
+  }
+
+  body input:focus {
+    outline-width: 0;
+  }
+  

@@ -18,6 +18,11 @@ Route::get('/', function () {
     return view('welcome');
 })->name("home");
 
+Route::get('/admin', function () {
+    return view('admin/dashboard');
+})->name("admin");
+
+
 Route::get('/blog', function () {
     return view('blog');
 });
@@ -59,9 +64,9 @@ Route::get('/compte', function () {
 
 Route::get('/compte-accueil', [App\Http\Controllers\AccountController::class, 'index'])->name('account');
 
+Route::get('/dashboard', [App\Http\Controllers\UserController::class, 'index'])->middleware(['auth'])->name('dashboard');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+Route::post('/dashboard', [App\Http\Controllers\UserController::class, 'update'])->middleware(['auth'])->name('dashboard.store');
+
 
 require __DIR__.'/auth.php';
