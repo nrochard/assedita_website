@@ -27,7 +27,7 @@
 
 
             <h1 class="text-3xl font-medium title-font text-gray-900 text-center">Bonjour</h1>
-            <h1 class="text-title text-3xl font-medium title-font text-gray-900 mb-12 text-center">Camille Meunier</h1>
+            <h1 class="text-title text-3xl font-medium title-font text-gray-900 mb-12 text-center">{{ $user->name }}</h1>
             <div class="flex flex-wrap -m-4">
                 <div class="p-4 md:w-1/2 w-full">
                     <div class="h-full bg-gray-100 p-8 rounded" style="background-color: white; border-radius:10px">

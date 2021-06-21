@@ -9,12 +9,20 @@
 
 
 <x-guest-layout>
+
     <x-auth-card>
+    <div class="text-center w-full">
+      <h1 class="text-title text-center name_welcome title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Connexion</h1>
+</div>
+
+
         <x-slot name="logo">
             <a href="/">
                 <!-- <x-application-logo class="w-20 h-20 fill-current text-gray-500" /> -->
             </a>
         </x-slot>
+
+
 
         <!-- Session Status -->
         <x-auth-session-status class="mb-4" :status="session('status')" />
@@ -59,7 +67,7 @@
                     </a>
                 @endif
 
-                <x-button class="ml-3">
+                <x-button class="btn_green ml-3">
                     {{ __('Se connecter') }}
                 </x-button>
             </div>

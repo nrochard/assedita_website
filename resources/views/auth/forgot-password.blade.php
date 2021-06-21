@@ -1,13 +1,19 @@
+@extends('layouts.default')
+
+@section('content')
+
+@include('partials.navbar')
+
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
-                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+                <img width="200px" src="../img/logo3.png">
             </a>
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
-            {{ __('Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.') }}
+            {{ __("Mot de passe oublié ? Aucun problème. Communiquez-nous simplement votre adresse e-mail et nous vous enverrons par e-mail un lien de réinitialisation de mot de passe qui vous permettra d'en choisir un nouveau.") }}
         </div>
 
         <!-- Session Status -->
@@ -27,10 +33,14 @@
             </div>
 
             <div class="flex items-center justify-end mt-4">
-                <x-button>
-                    {{ __('Email Password Reset Link') }}
+                <x-button class="">
+                    {{ __('Envoyer le lien de réinitialisation') }}
                 </x-button>
             </div>
         </form>
     </x-auth-card>
 </x-guest-layout>
+
+@include('partials.footer')
+
+@endsection
