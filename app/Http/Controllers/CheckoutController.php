@@ -10,8 +10,7 @@ use App\Models\User;
 class CheckoutController extends Controller
 {
     public function index(Request $request){
-  
-        $user = User::get();
+        $user = auth()->user();
 
         if (!$user){
             return view('auth/login');
