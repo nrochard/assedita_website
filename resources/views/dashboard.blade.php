@@ -26,7 +26,7 @@
             @endif
 
 
-            <h1 class="text-3xl font-medium title-font text-gray-900 text-center">Bonjour</h1>
+            <h1 class="text_bold text-3xl font-medium title-font text-gray-900 text-center">Bonjour</h1>
             <h1 class="text-title text-3xl font-medium title-font text-gray-900 mb-12 text-center">{{ $user->name }}</h1>
             <div class="flex flex-wrap -m-4">
                 <div class="p-4 md:w-1/2 w-full">
@@ -37,8 +37,8 @@
 
                             </span>
                         </a>
-                        <p class="leading-relaxed mb-6"><strong>Nom :</strong> {{ $user->name }}</p>
-                        <p class="leading-relaxed mb-6"><strong>Email :</strong> {{ $user->email }}</p>
+                        <p class="text_bold leading-relaxed mb-6"><strong>Nom :</strong> {{ $user->name }}</p>
+                        <p class="text_bold leading-relaxed mb-6"><strong>Email :</strong> {{ $user->email }}</p>
                         <div class="flex">
 
                             <button class="modal-open btn_green flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Modifier</button>
@@ -54,9 +54,9 @@
 
                             </span>
                         </a>
-                        <p class="leading-relaxed mb-6"><strong>État de l'abonnement :</strong> Actif</p>
-                        <p class="leading-relaxed mb-6"><strong>Type d'abonnement :</strong> Le Gourmand</p>
-                        <p class="leading-relaxed mb-6"><strong>Prix :</strong> : 20€ / mois</p>
+                        <p class="text_bold leading-relaxed mb-6"><strong>État de l'abonnement :</strong> Actif</p>
+                        <p class="text_bold leading-relaxed mb-6"><strong>Type d'abonnement :</strong> Le Gourmand</p>
+                        <p class="text_bold leading-relaxed mb-6"><strong>Prix :</strong> : 20€ / mois</p>
                         <div class="flex">
 
                             <button class="btn_green_fill flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Suspendre</button>

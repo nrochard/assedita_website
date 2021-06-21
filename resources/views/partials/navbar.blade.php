@@ -14,31 +14,31 @@
     
     </li>
     <li class="border-t md:border-none">
-      <a href="/restaurant" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold">Le Restaurant</a>
+      <a href="{{route('restaurant')}}" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold">Le Restaurant</a>
     </li>
     
     <li class="border-t md:border-none">
-      <a href="/carte" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">La Carte</a>
+      <a href="{{route('card')}}" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">La Carte</a>
     </li>
     
     <li class="border-t md:border-none">
-      <a href="/equipe" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">L'Équipe</a>
+      <a href="{{route('team')}}" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">L'Équipe</a>
     </li>
 
     <li class="border-t md:border-none">
-      <a href="/reservation" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">Réservation</a>
+      <a href="{{route('booking')}}" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">Réservation</a>
     </li>
 
     <li class="border-t md:border-none">
-      <a href="/contact" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">Contact & Accès</a>
+      <a href="{{route('contact')}}" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">Contact & Accès</a>
     </li>
 
     <li class="border-t md:border-none">
-      <a href="/blog" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">Idées & Conseils</a>
+      <a href="{{route('blog')}}" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">Idées & Conseils</a>
     </li>
 
     <li class="border-t md:border-none">
-      <a href="/abonnement" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">Abonnement</a>
+      <a href="{{route('checkout')}}" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">Abonnement</a>
     </li>
 <!-- 
     <li class="border-t md:border-none">

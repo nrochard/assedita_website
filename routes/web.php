@@ -18,14 +18,11 @@ Route::get('/', function () {
     return view('welcome');
 })->name("home");
 
-// ADMIN DU SITE
+// --- ROUTES POUR L'ADMIN DU SITE ---
 
 Route::get('/admin', function () {
     return view('admin/dashboard');
 })->name("admin");
-
-
-// -> Route pour gérer les utilisateurs du site 
 
 Route::get('/users', [\App\Http\Controllers\Admin\UserController::class, 'index'])->name('users');
 
@@ -37,67 +34,50 @@ Route::get('/posts', function () {
     return view('admin/posts');
 })->name("posts");
 
-
 Route::get('/plans', function () {
     return view('admin/plans');
 })->name("plans");
 
-
 Route::get('/support', function () {
     return view('admin/support');
 })->name("support");
-
 
 Route::get('/admin-calendar', function () {
     return view('admin/calendar');
 })->name("calendar");
 
 
+// ROUTES POUR LE SITE INTERNET
 
-
-
-
-
-
-
-Route::get('/blog', function () {
-    return view('blog');
-});
-
+Route::get('/blog', [\App\Http\Controllers\PostController::class, 'index'])->name('blog');
 
 Route::get('/abonnement', [\App\Http\Controllers\CheckoutController::class, 'index'])->name('checkout');
 Route::post('/abonnement', [App\Http\Controllers\CheckoutController::class, 'store']);
 
-// Route::get('/abonnement', function () {
-//     return view('plan');
-// });
-
 
 Route::get('/restaurant', function () {
     return view('restaurant');
-});
+})->name('restaurant');
 
 Route::get('/contact', function () {
     return view('contact');
-});
+})->name('contact');
 
 Route::get('/carte', function () {
     return view('card');
-});
+})->name('card');
 
 Route::get('/equipe', function () {
     return view('team');
-});
+})->name('team');
 
 Route::get('/reservation', function () {
     return view('booking');
-});
+})->name('booking');
 
 Route::get('/compte', function () {
     return view('account');
 });
-
-
 
 Route::get('/compte-accueil', [App\Http\Controllers\AccountController::class, 'index'])->name('account');
 

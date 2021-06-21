@@ -1,4 +1,3 @@
-
 @extends('layouts.default')
 
 @section('content')
@@ -9,11 +8,11 @@
 
 
 <x-guest-layout>
-
     <x-auth-card>
-    <div class="text-center w-full">
-      <h1 class="text-title text-center name_welcome title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Connexion</h1>
-</div>
+        
+        <div class="text-center w-full">
+            <h1 class="text-title text-center name_welcome title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Connexion</h1>
+        </div>
 
 
         <x-slot name="logo">
@@ -45,11 +44,8 @@
             <div class="mt-4">
                 <x-label for="password" :value="__('Password')" />
 
-                <x-input id="password" class="block mt-1 w-full"
-                                type="password"
-                                name="password"
-                                required autocomplete="current-password" />
-                                <p class="text-xs text-gray-500 mt-3">Mot de passe pour l'admin : Webstart10</p>
+                <x-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
+                <p class="text-xs text-gray-500 mt-3">Mot de passe pour l'admin : Webstart10</p>
             </div>
 
             <!-- Remember Me -->
@@ -62,9 +58,9 @@
 
             <div class="flex items-center justify-end mt-4">
                 @if (Route::has('password.request'))
-                    <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
-                        {{ __('Mot de passe oublié ?') }}
-                    </a>
+                <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
+                    {{ __('Mot de passe oublié ?') }}
+                </a>
                 @endif
 
                 <x-button class="btn_green ml-3">
