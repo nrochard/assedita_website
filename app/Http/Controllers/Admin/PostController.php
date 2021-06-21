@@ -10,7 +10,8 @@ class PostController extends Controller
 {
     public function index(Request $request){
 
-        $users = DB::table('posts')->get();
+        $posts = DB::table('posts')->get();
+        // dd($posts);
         return view('admin/posts', compact('posts'));
     }
 }

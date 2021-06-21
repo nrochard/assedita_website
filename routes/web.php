@@ -30,9 +30,7 @@ Route::get('/users', [\App\Http\Controllers\Admin\UserController::class, 'index'
 //     return view('admin/users');
 // })->name("users");
 
-Route::get('/posts', function () {
-    return view('admin/posts');
-})->name("posts");
+Route::get('/posts', [\App\Http\Controllers\Admin\PostController::class, 'index'])->name('posts');
 
 Route::get('/plans', function () {
     return view('admin/plans');

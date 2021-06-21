@@ -61,7 +61,7 @@
             <div class="p-4 lg:w-1/2">
                 <div id="bg-welcome_block2" class="h-full bg-welcome_block px-8 pt-16 pb-16 rounded-lg overflow-hidden text-center relative">
                     <h2 class="text_white  text-title   title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Le soir</h2>
-                    <p class="text_white text black leading-relaxed text-base" style="height:230px">Le soir, on abandonne le traditionnel entrée-plat-dessert pour faire place à un concept bien plus convivial et chaleureux. Venez entre amis vous asseoir autour d’une de nos tables et profiter de nos « Assedita », de délicats mets à partager, tant originaux que réconfortants. Plus de dilemme entre tel ou tel plat, commandez plusieurs assiettes à partager et laissez-vous entraîner dans un moment de découverte ! Votre soirée sera également rythmée par les accords mets-cocktails surprenants de notre mixologue Camille : des mini-cocktails détonants reprenant un élément du plat en question. </p>
+                    <p class="text_white text black leading-relaxed text-base" style="height:230px">Le soir, on abandonne le traditionnel entrée-plat-dessert pour faire place à un concept bien plus convivial et chaleureux. Venez entre amis vous asseoir autour d’une de nos tables et profiter de nos « Assedita », de délicats mets à partager, tant originaux que réconfortants. Plus de dilemme entre tel ou tel plat, commandez plusieurs assiettes à partager et laissez-vous entraîner dans un moment de découverte ! Votre soirée sera également rythmée par les accords mets-cocktails surprenants de notre mixologue Camille. </p>
                 </div>
             </div>
             <div class="p-4 lg:w-1/2">
