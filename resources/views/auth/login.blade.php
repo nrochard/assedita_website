@@ -30,6 +30,7 @@
                 <x-label for="email" :value="__('Email')" />
 
                 <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
+                <p class="text-xs text-gray-500 mt-3">Email pour l'admin : admin@admin.com</p>
             </div>
 
             <!-- Password -->
@@ -40,6 +41,7 @@
                                 type="password"
                                 name="password"
                                 required autocomplete="current-password" />
+                                <p class="text-xs text-gray-500 mt-3">Mot de passe pour l'admin : Webstart10</p>
             </div>
 
             <!-- Remember Me -->
