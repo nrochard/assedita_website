@@ -36,9 +36,7 @@ Route::get('/admin/posts/{id}', [\App\Http\Controllers\Admin\PostController::cla
 
 Route::post('/admin/post', [App\Http\Controllers\Admin\PostController::class, 'storePost'])->middleware(['auth']);
 
-Route::get('/admin/plans', function () {
-    return view('admin/plans');
-})->name("plans");
+Route::get('/admin/plans', [\App\Http\Controllers\Admin\PlanController::class, 'index'])->middleware('auth')->name('admin.plans');
 
 Route::get('/admin/support', function () {
     return view('admin/support');
