@@ -65,7 +65,7 @@
                 </div>
 
                 @if ($user->isAdmin == 1)
-                <a href="{{route('admin')}}" class="btn_green flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Administrer le site</a>
+                <a href="{{route('admin.index')}}" class="btn_green flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Administrer le site</a>
                 @endif
             </div>
         </div>
