@@ -23,10 +23,10 @@ class PostController extends Controller
         {
             $post->delete();
             $posts = DB::table('posts')->get();
-            return redirect()->route('posts')->with('success', 'Article supprimé avec succès');
+            return redirect()->route('admin.posts')->with('success', 'Article supprimé avec succès');
         }
 
-        return redirect()->route('posts')->with('error', 'Il y a eu un soucis lors de la suppression.');
+        return redirect()->route('admin.posts')->with('error', 'Il y a eu un soucis lors de la suppression.');
         $posts = DB::table('posts')->get();
         return view('admin/posts', compact('posts'));
     }

@@ -22,10 +22,10 @@ class UserController extends Controller
         {
             $user->delete();
             $users = DB::table('users')->get();
-            return redirect()->route('users')->with('success', 'Utilisateur supprimé avec succès');
+            return redirect()->route('admin.users')->with('success', 'Utilisateur supprimé avec succès');
         }
 
-        return redirect()->route('users')->with('error', 'Il y a eu un soucis lors de la suppression.');
+        return redirect()->route('admin.users')->with('error', 'Il y a eu un soucis lors de la suppression.');
         $users = DB::table('users')->get();
         return view('admin/users', compact('users'));
     }
