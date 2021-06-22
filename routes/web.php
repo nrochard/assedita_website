@@ -22,17 +22,20 @@ Route::get('/', function () {
 
 Route::get('/admin', function () {
     return view('admin/dashboard');
-})->name("admin");
+})->middleware('auth')->name("admin");
 
-Route::get('/admin/users', [\App\Http\Controllers\Admin\UserController::class, 'index'])->name('admin.users');
+Route::get('/admin/users', [\App\Http\Controllers\Admin\UserController::class, 'index'])->middleware('auth')->name('admin.users');
 Route::get('/admin/users/{id}', [\App\Http\Controllers\Admin\UserController::class, 'deleteUser'])->middleware('auth')->name("admin.users.delete");
 
 // Route::get('/users', function () {
 //     return view('admin/users');
 // })->name("users");
 
-Route::get('/admin/posts', [\App\Http\Controllers\Admin\PostController::class, 'index'])->name('admin.posts');
+Route::get('/admin/posts', [\App\Http\Controllers\Admin\PostController::class, 'index'])->middleware('auth')->name('admin.posts');
+Route::get('/admin/post', [\App\Http\Controllers\Admin\PostController::class, 'displayForm'])->middleware('auth')->name('admin.post');
 Route::get('/admin/posts/{id}', [\App\Http\Controllers\Admin\PostController::class, 'deletePost'])->middleware('auth')->name("admin.posts.delete");
+
+Route::post('/admin/post', [App\Http\Controllers\Admin\PostController::class, 'storePost'])->middleware(['auth']);
 
 Route::get('/admin/plans', function () {
     return view('admin/plans');
@@ -79,7 +82,7 @@ Route::get('/compte', function () {
     return view('account');
 });
 
-Route::get('/compte-accueil', [App\Http\Controllers\AccountController::class, 'index'])->name('account');
+Route::get('/compte-accueil', [App\Http\Controllers\AccountController::class, 'index'])->middleware(['auth'])->name('account');
 
 Route::get('/dashboard', [App\Http\Controllers\UserController::class, 'index'])->middleware(['auth'])->name('dashboard');
 

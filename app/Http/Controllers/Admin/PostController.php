@@ -30,4 +30,28 @@ class PostController extends Controller
         $posts = DB::table('posts')->get();
         return view('admin/posts', compact('posts'));
     }
+    function displayForm(Request $request)
+    {
+        // dd("ok");
+        return view('admin/post');
+    }
+    function storePost(Request $request)
+    {
+        $request->validate([
+            'title' => 'required',
+            'short_description' => 'required',
+            'content' => 'required',
+            'isActive' => 'required',
+        ]);
+
+        Post::create([
+            'title' => $request->title,
+            'short_description' => $request->short_description,
+            'content' => $request->content,
+            'path_img' => "",
+            'isActive' => $request->isActive,
+        ]);
+
+        return redirect()->route('admin.post')->with('success', 'Article ajouté avec succès');
+    }
 }
