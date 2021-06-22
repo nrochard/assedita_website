@@ -6,7 +6,7 @@
         </a>
     </div>
     <nav class="text-white text-base font-semibold pt-3">
-        <a href="{{route('admin')}}" class="flex items-center text-white py-4 pl-6 nav-item">
+        <a href="{{route('admin.index')}}" class="flex items-center text-white py-4 pl-6 nav-item">
             <i class="fas fa-tachometer-alt mr-3"></i>
             Tableau de bord
         </a>

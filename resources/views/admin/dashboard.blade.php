@@ -37,32 +37,59 @@
                         <i class="fas fa-list mr-3"></i> Nouveaux utilisateurs
                     </p>
                     <div class="bg-white overflow-auto">
-                        <table class="min-w-full bg-white">
-                            <thead class="bg-gray-800 text-white">
-                                <tr>
-                                    <th class="w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">#</th>
-                                    <th class="w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Name</th>
-                                    <th class="text-left py-3 px-4 uppercase font-semibold text-sm">Adresse mail</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-gray-700">
-                                <tr>
-                                    <td class="w-1/3 text-left py-3 px-4">Lian</td>
-                                    <td class="w-1/3 text-left py-3 px-4">Smith</td>
-                                    <td class="text-left py-3 px-4"><a class="hover:text-blue-500" href="mailto:jonsmith@mail.com">jonsmith@mail.com</a></td>
-                                </tr>
-                                <tr class="bg-gray-200">
-                                    <td class="w-1/3 text-left py-3 px-4">Emma</td>
-                                    <td class="w-1/3 text-left py-3 px-4">Johnson</td>
-                                    <td class="text-left py-3 px-4"><a class="hover:text-blue-500" href="mailto:jonsmith@mail.com">jonsmith@mail.com</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="w-1/3 text-left py-3 px-4">Oliver</td>
-                                    <td class="w-1/3 text-left py-3 px-4">Williams</td>
-                                    <td class="text-left py-3 px-4"><a class="hover:text-blue-500" href="mailto:jonsmith@mail.com">jonsmith@mail.com</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <table class="min-w-full leading-normal">
+                    <thead>
+                            <tr>
+                                <th class="py-4 px-6 bg-grey-lightest font-bold uppercase text-sm text-grey-dark border-b border-grey-light">#</th>
+                                <th class="py-4 px-6 bg-grey-lightest font-bold uppercase text-sm text-grey-dark border-b border-grey-light">Nom</th>
+                                <th class="py-4 px-6 bg-grey-lightest font-bold uppercase text-sm text-grey-dark border-b border-grey-light">Rôle</th>
+                                <th class="py-4 px-6 bg-grey-lightest font-bold uppercase text-sm text-grey-dark border-b border-grey-light">État de l'abonnement</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach ($users as $user)
+                            <tr>
+                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                    <p class="text-gray-900 whitespace-no-wrap">{{ $user->id }} </p>
+                                </td>
+                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+
+                                    <div class="flex items-center">
+                                        <div class="">
+                                            <p class="text-gray-900 whitespace-no-wrap">
+                                                {{ $user->name }}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                    @if ($user->isAdmin == 1)
+                                    <p class="text-gray-900 whitespace-no-wrap">Admin</p>
+                                    @endif
+                                    @if ($user->isAdmin == 0)
+                                    <p class="text-gray-900 whitespace-no-wrap">Utilisateur</p>
+                                    @endif
+                                </td>
+                                <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                                    @if ($user->stripe_id)
+                                    <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+                                        <span aria-hidden class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
+                                        <span class="relative">Actif</span>
+                                    </span>
+                                    @endif
+                                    @if (!$user->stripe_id)
+                                    <span class="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight">
+                                        <span aria-hidden class="absolute inset-0 bg-red-200 opacity-50 rounded-full"></span>
+                                        <span class="relative">Inactif</span>
+                                    </span>
+                                    @endif
+                                </td>
+                            </tr>
+                            @endforeach
+
+                        </tbody>
+                    </table>
+
                     </div>
                 </div>
             </main>

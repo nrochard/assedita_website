@@ -20,9 +20,8 @@ Route::get('/', function () {
 
 // --- ROUTES POUR L'ADMIN DU SITE ---
 
-Route::get('/admin', function () {
-    return view('admin/dashboard');
-})->middleware('auth')->name("admin");
+Route::get('/admin', [\App\Http\Controllers\Admin\IndexController::class, 'index'])->middleware('auth')->name('admin.index');
+
 
 Route::get('/admin/users', [\App\Http\Controllers\Admin\UserController::class, 'index'])->middleware('auth')->name('admin.users');
 Route::get('/admin/users/{id}', [\App\Http\Controllers\Admin\UserController::class, 'deleteUser'])->middleware('auth')->name("admin.users.delete");

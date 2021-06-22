@@ -26,7 +26,7 @@
 
             <!-- Dropdown Nav -->
             <nav :class="isOpen ? 'flex': 'hidden'" class="flex flex-col pt-4">
-                <a href="{{route('admin')}}" class="flex items-center active-nav-link text-white py-2 pl-4 nav-item">
+                <a href="{{route('admin.index')}}" class="flex items-center active-nav-link text-white py-2 pl-4 nav-item">
                     <i class="fas fa-tachometer-alt mr-3"></i>
                     Tableau de bord
                 </a>
