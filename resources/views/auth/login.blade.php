@@ -45,7 +45,7 @@
                 <x-label for="password" :value="__('Password')" />
 
                 <x-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
-                <p class="text-xs text-gray-500 mt-3">Mot de passe pour l'admin : Webstart10</p>
+                <p class="text-xs text-gray-500 mt-3">Mot de passe pour l'admin : qwertyuiop</p>
             </div>
 
             <!-- Remember Me -->
