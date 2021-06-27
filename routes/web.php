@@ -22,13 +22,8 @@ Route::get('/', function () {
 
 Route::get('/admin', [\App\Http\Controllers\Admin\IndexController::class, 'index'])->middleware('auth')->name('admin.index');
 
-
 Route::get('/admin/users', [\App\Http\Controllers\Admin\UserController::class, 'index'])->middleware('auth')->name('admin.users');
 Route::get('/admin/users/{id}', [\App\Http\Controllers\Admin\UserController::class, 'deleteUser'])->middleware('auth')->name("admin.users.delete");
-
-// Route::get('/users', function () {
-//     return view('admin/users');
-// })->name("users");
 
 Route::get('/admin/posts', [\App\Http\Controllers\Admin\PostController::class, 'index'])->middleware('auth')->name('admin.posts');
 Route::get('/admin/post', [\App\Http\Controllers\Admin\PostController::class, 'displayForm'])->middleware('auth')->name('admin.post');

@@ -312,6 +312,6 @@ body .text_justify{
     outline-width: 0;
   }
   
-  body .leading-normal th{
+  body .leading-normal  th{
       text-align: left;
   }
