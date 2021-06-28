@@ -54,4 +54,33 @@ class PostController extends Controller
 
         return redirect()->route('admin.post')->with('success', 'Article ajouté avec succès');
     }
+    function editPost(Request $request){
+        $post = Post::firstWhere('id', $request->id);
+        return view('admin/editPost', compact('post'));
+    }
+
+    function updatePost(Request $request){
+
+        $request->validate([
+            'title' => 'required',
+            'short_description' => 'required',
+            'content' => 'required',
+        ]);
+        
+        $post = Post::firstWhere('id', $request->id);
+
+
+        $post->update([
+            'title' => $request->title,
+            'short_description' => $request->short_description,
+            'content' => $request->content,
+            'isVisible' => $request->isVisible,
+        ]);
+
+
+        $posts = DB::table('posts')->get();
+
+        return view('admin/posts', compact('posts'));
+    }
+
 }

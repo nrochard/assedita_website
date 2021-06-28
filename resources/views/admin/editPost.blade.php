@@ -10,7 +10,7 @@
 
     <div class="w-full h-screen overflow-x-hidden border-t flex flex-col">
         <main class="w-full flex-grow p-6">
-            <h1 class="text-3xl text-black pb-6">Formulation d'ajout d'un article</h1>
+            <h1 class="text-3xl text-black pb-6">Formulation d'édition des articles</h1>
 
             @include('partials/message')
 
@@ -27,15 +27,15 @@
                                 @csrf
                                     <div class="">
                                         <label class="block text-sm text-gray-600" for="title">Titre</label>
-                                        <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="title" name="title" type="text" required="">
+                                        <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="title" name="title" type="text" required="" value=" {{ $post->title }}">
                                     </div>
                                     <div class="mt-2">
                                         <label class="block text-sm text-gray-600" for="short_description">Description</label>
-                                        <input class="w-full px-5  py-4 text-gray-700 bg-gray-200 rounded" id="short_description" name="short_description" type="text" required="">
+                                        <input class="w-full px-5  py-4 text-gray-700 bg-gray-200 rounded" id="short_description" name="short_description" type="text" required="" value=" {{ $post->short_description }}">
                                     </div>
                                     <div class="mt-2">
                                         <label class=" block text-sm text-gray-600" for="content">Contenu</label>
-                                        <textarea class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" id="content" name="content" rows="6" required=""></textarea>
+                                        <textarea class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" id="content" name="content" rows="6" required="">{{ $post->content }}</textarea>
                                     </div>
 
                                     <div class="mt-4">

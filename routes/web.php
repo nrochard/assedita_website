@@ -27,6 +27,8 @@ Route::get('/admin/users/{id}', [\App\Http\Controllers\Admin\UserController::cla
 
 Route::get('/admin/posts', [\App\Http\Controllers\Admin\PostController::class, 'index'])->middleware('auth')->name('admin.posts');
 Route::get('/admin/post', [\App\Http\Controllers\Admin\PostController::class, 'displayForm'])->middleware('auth')->name('admin.post');
+Route::get('/admin/post/edit/{id}', [\App\Http\Controllers\Admin\PostController::class, 'editPost'])->middleware('auth')->name('admin.post.edit');
+Route::post('/admin/post/edit/{id}', [\App\Http\Controllers\Admin\PostController::class, 'updatePost'])->middleware('auth')->name('admin.post.update');
 Route::get('/admin/posts/{id}', [\App\Http\Controllers\Admin\PostController::class, 'deletePost'])->middleware('auth')->name("admin.posts.delete");
 
 Route::post('/admin/post', [App\Http\Controllers\Admin\PostController::class, 'storePost'])->middleware(['auth']);
