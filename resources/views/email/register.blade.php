@@ -135,24 +135,13 @@
                         <td data-bgcolor="bg-block" class="holder" style="padding:58px 60px 20px;" bgcolor="#f9f9f9">
                             <table width="100%" cellpadding="0" cellspacing="0">
                                 <tr>
-                                    <td data-color="title" data-size="size title" data-min="25" data-max="45" data-link-color="link title color" data-link-style="text-decoration:none; color:#db5a41;" class="title" align="center" style="font: bold 35px/38px Arial, Helvetica, sans-serif; color:#db5a41; padding:0 0 24px;">
-                                        FOOD BOOKING
+                                    <td data-color="title" data-size="size title" data-min="25" data-max="45" data-link-color="link title color" data-link-style="text-decoration:none; color:#db5a41;" class="title" align="center" style="font: bold 35px/38px Arial, Helvetica, sans-serif; color:#132c1a; padding:0 0 24px;">
+                                        Assedita
                                     </td>
                                 </tr>
                                 <tr>
                                     <td data-color="text" data-size="size text" data-min="10" data-max="26" data-link-color="link text color" data-link-style="font-weight:bold; text-decoration:underline; color:#40aceb;" align="center" style="font: 16px/25px Arial, Helvetica, sans-serif; color:#888; padding:0 0 23px;">
-                                        Merci pour ta réservation ! N'oublie pas de venir chercher ton repas au restaurant dans le créneau que tu as choisi. Bon appétit !
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="padding:0 0 20px;">
-                                        <table width="134" align="center" style="margin:0 auto;" cellpadding="0" cellspacing="0">
-                                            <tr>
-                                                <td data-bgcolor="bg-button" data-size="size button" data-min="10" data-max="16" class="btn" align="center" style="font:12px/14px Arial, Helvetica, sans-serif; color:#f8f9fb; text-transform:uppercase; mso-padding-alt:12px 10px 10px; border-radius:2px;" bgcolor="#f1d42f">
-                                                    <a target="_blank" style="text-decoration:none; color:#f8f9fb; display:block; padding:12px 10px 10px; font-weight: bold" href="https://food-booking-laravel.herokuapp.com/reservation/annulation/{{ $token }}">Annuler ma commande</a>
-                                                </td>
-                                            </tr>
-                                        </table>
+                                        Merci pour ton inscription ! N'hésite pas à t'abonner ou à réserver une table dans notre restaurant.
                                     </td>
                                 </tr>
                             </table>
@@ -174,19 +163,14 @@
                                     <th class="flex" width="300" align="left" style="vertical-align:top; padding:0;">
                                         <table width="100%" cellpadding="0" cellspacing="0">
                                             <tr>
-                                                <td data-bgcolor="bg-inner-block-01" class="h-auto" height="100" bgcolor="#697f4f">
+                                                <td data-bgcolor="bg-inner-block-01" class="h-auto" height="100" bgcolor="#132c1a">
                                                     <table width="100%" cellpadding="0" cellspacing="0">
                                                         <tr>
-                                                            <td class="description" style="padding:10px 40px 10px 70px;" bgcolor="#697f4f">
+                                                            <td class="description" style="padding:10px 40px 10px 70px;" bgcolor="#132c1a">
                                                                 <table width="100%" cellpadding="0" cellspacing="0">
                                                                     <tr>
                                                                         <td data-color="title-2" data-size="size title-2" data-min="10" data-max="25" data-link-color="link title-2 color" data-link-style="text-decoration:none; color:#fff;" class="title-2" align="right" style="font:bold 15px/23px Arial, Helvetica, sans-serif; color:#fff; padding:0 0 6px;">
-                                                                            RÉCAPITULATIF DE TA RÉSERVATION <br /> 
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td data-color="text-2" data-size="size text-2" data-min="10" data-max="25" data-link-color="link text-2 color" data-link-style="font-weight:bold; text-decoration:underline; color:#fff;" align="right" style="font:15px/23px Arial, Helvetica, sans-serif; color:#fff;">
-                                                                            Date : {{ $date }} <br/> Créneau : {{ $slot }} <br/> Email : {{ $email }}
+                                                                            À BIENTÔT <br /> 
                                                                         </td>
                                                                     </tr>
                                                                 </table>
@@ -212,7 +196,7 @@
                                                     <table width="100%" cellpadding="0" cellspacing="0">
                                                         <tr>
                                                             <td data-color="text" data-link-color="link text color" data-link-style="text-decoration:underline; color:#797c82;" class="aligncenter" style="font:12px/16px Arial, Helvetica, sans-serif; color:#797c82; padding:0 0 10px;">
-                                                                Food Booking, 2021. &nbsp; Tous droits réservés. <a target="_blank" style="text-decoration:underline; color:#797c82;" href="https://food-booking-laravel.herokuapp.com/reservation/annulation/{{ $token }}">Annuler ma commande.</a>
+                                                                Assedita, 2021. &nbsp; Tous droits réservés. <a target="_blank" style="text-decoration:underline; color:#797c82;" href="https://asseditawebsite.herokuapp.com/">Consulter le site.</a>
                                                             </td>
                                                         </tr>
                                                     </table>

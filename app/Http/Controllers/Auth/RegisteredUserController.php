@@ -53,10 +53,10 @@ class RegisteredUserController extends Controller
 
 
         // //Envoi mail de confirmation
-        //  Mail::send('email.register', $params, function($m) use ($params){
-        //         $m->from($params['email']);
-        //         $m->to("contact@assedita.com", "Lucie de Assedita")->subject('Vous êtes bien inscrit');
-        // });
+         Mail::send('email.register', $params, function($m) use ($params){
+                $m->from($params['email']);
+                $m->to("contact@assedita.com", "Lucie de Assedita")->subject('Vous êtes bien inscrit');
+        });
 
         event(new Registered($user));
 
