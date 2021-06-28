@@ -17,6 +17,7 @@ class CheckoutController extends Controller
         }
         $plans = Plan::get();
         $intent = $request->user()->createSetupIntent();
+        
        return view('plan',  compact('plans', 'intent'));
     }
     public function store(Request $request){
