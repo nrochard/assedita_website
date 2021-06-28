@@ -18,7 +18,7 @@
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span class="title-font font-medium">Une cuisine avec des produits frais</span>
+          <span class="text title-font font-medium">Une cuisine avec des produits frais</span>
         </div>
       </div>
       <div class="p-2 sm:w-1/2 w-full">
@@ -27,7 +27,7 @@
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span class="title-font font-medium">Des vins natures et des bières artisanales</span>
+          <span class="text title-font font-medium">Des vins natures et des bières artisanales</span>
         </div>
       </div>
       <div class="p-2 sm:w-1/2 w-full">
@@ -36,7 +36,7 @@
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span class="title-font font-medium">Des cocktails personnalisés réalisés par une mixologue</span>
+          <span class="text title-font font-medium">Des cocktails personnalisés réalisés par une mixologue</span>
         </div>
       </div>
       <div class="p-2 sm:w-1/2 w-full">
@@ -45,7 +45,7 @@
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span class="title-font font-medium">Un restaurant dans un quartier vivant et dynamique</span>
+          <span class="text title-font font-medium">Un restaurant dans un quartier vivant et dynamique</span>
         </div>
       </div>
       <div class="p-2 sm:w-1/2 w-full">
@@ -54,7 +54,7 @@
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span class="title-font font-medium">Une décoration factory dans une ambiance décontractée</span>
+          <span class="text title-font font-medium">Une décoration factory dans une ambiance décontractée</span>
         </div>
       </div>
       <div class="p-2 sm:w-1/2 w-full">
@@ -63,7 +63,7 @@
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span class="title-font font-medium">Une jeune équipe issue de Ferrandi Paris</span>
+          <span class="text title-font font-medium">Une jeune équipe issue de Ferrandi Paris</span>
         </div>
       </div>
     </div>

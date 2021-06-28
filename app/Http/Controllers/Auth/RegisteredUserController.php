@@ -3,11 +3,13 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Config;
 use App\Models\User;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Hash;
 
 class RegisteredUserController extends Controller
@@ -44,9 +46,23 @@ class RegisteredUserController extends Controller
             'password' => Hash::make($request->password),
         ]);
 
+        $params = [
+            'email' => $request->email,
+            'name' => $request->name,
+        ];
+
+
+        // //Envoi mail de confirmation
+        //  Mail::send('email.register', $params, function($m) use ($params){
+        //         $m->from($params['email']);
+        //         $m->to("contact@assedita.com", "Lucie de Assedita")->subject('Vous êtes bien inscrit');
+        // });
+
         event(new Registered($user));
 
         Auth::login($user);
+
+
 
         return redirect(RouteServiceProvider::HOME);
     }
