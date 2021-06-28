@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Support\Facades\DB;
 
-class TokenController extends Controller
+class TokenApiController extends Controller
 {
 
     public function login(Request $request)

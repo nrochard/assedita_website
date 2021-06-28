@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Post;
 use Carbon\Carbon;
 
-class PostController extends Controller
+class PostApiController extends Controller
 {
     public function index(Request $request){
 
